@@ -1,0 +1,137 @@
+
+baseURL = "https://hugonest.pages.dev/"
+buildDrafts = false
+buildExpired = true
+buildFuture = true
+enableEmoji = true
+enableInlineShortcodes = true
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+disableHugoGeneratorInject = true
+summaryLength = 70
+hasCJKLanguage = true
+theme = ["PaperMod"]
+title = "HugoNest"
+mainsections = ["posts"]             
+
+[pagination]
+pagerSize = 20
+
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = false
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+displayFullLangName = true
+defaultTheme = "auto"
+keywords = ["HugoNest", "Hugo","Mobile", "App","Hugo Android","Hugo iPhone"]
+ShowAllPagesInArchive = true
+ShowPageNums = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowPostNavLinks = true
+ShowReadingTime = true
+ShowWordCount = false
+ShowRssButtonInSectionTermList = true
+ShowShareButtons = true
+UseHugoToc = true
+hideFooter = false
+ShowFullTextinRSS = true
+author = "HugoNest"
+comments = false
+description = "Efficiently manage your Hugo static site anytime, anywhere. HugoNest offers seamless mobile Markdown editing, reliable AI Powered Git integration, and offline support—the ideal mobile companion for Hugo developers and content creators."
+disableScrollToTop = false
+disableSpecial1stPost = false
+disableThemeToggle = false
+env = "production"
+hideSummary = false
+hidemeta = false
+images = ["/images/avatar.png"]
+showtoc = true                                                                                                                                                                                                                                                                                                                                                                                          
+tocopen = true                                                                                                                                                                                                                                                                                                                                                                                          
+social = true
+ 
+[[params.socialIcons]]
+name = "email"
+url = "mailto:HugoNest@xgdebug.com"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/HugoNest"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://x.com/hugonestapp"
+
+[[params.socialIcons]]
+name = "link"
+url = "https://hugonest.github.io/"
+
+[params.assets]
+apple_touch_icon = "/images/apple-touch-icon.png"
+avatarURL = "/images/avatar.png"
+favicon = "/images/favicon.ico"
+favicon16x16 = "/images/avatar.png"
+favicon32x32 = "/images/avatar.png"
+faviconpng = "/images/favicon.png"
+safari_pinned_tab = "https://hugonest.pages.dev"
+
+[params.cover]
+hidden = false
+hiddenInList = true
+hiddenInSingle = true
+
+[params.editPost]
+Text = "Suggest Changes"
+URL = "https://github.com/HugoNest/content"
+appendFilePath = true
+disabled = true
+
+[params.fuseOpts]
+distance = 1_000
+isCaseSensitive = false
+keys = ["title", "permalink", "summary", "content"]
+limit = 10
+location = 0
+minMatchCharLength = 0
+shouldSort = true
+threshold = 0.4
+
+[params.label]
+icon = "/images/apple-touch-icon.png"
+iconHeight = 35
+text = ""
+
+[params.profileMode]
+enabled = false
+imageHeight = 120
+imageWidth = 120
+imageUrl = "/images/avatar.png"
+imageTitle = "HugoNest"
+title = """#### Manage Your Blog Anywhere, Anytime. """
+subtitle = " Take full control of your Hugo static site with HugoNest, the mobile app designed specifically for Hugo. Write, edit, preview, and deploy content seamlessly from anywhere, complete with Git sync and AI-powered writing assistance—all on your phone.  "
+
+[params.analytics.bing]
+SiteVerificationTag = ""
+
+[params.analytics.google]
+SiteVerificationTag = ""
+
+[params.analytics.yandex]
+SiteVerificationTag = ""
+
+[taxonomies]
+tag = "tags"
+series = "series"
+# category = 'categories'
+
+
