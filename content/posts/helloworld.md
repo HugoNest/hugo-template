@@ -9,6 +9,10 @@ series = []
 author = 'HugoNest'
 keywords = []
 
+[cover]
+image = ""
+relative = true
+
 +++
 
-hello !
+hello world!

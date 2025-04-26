@@ -1,4 +1,3 @@
-
 baseURL = "https://hugonest.pages.dev/"
 buildDrafts = false
 buildExpired = true
@@ -87,8 +86,8 @@ safari_pinned_tab = "https://hugonest.pages.dev"
 
 [params.cover]
 hidden = false
-hiddenInList = true
-hiddenInSingle = true
+hiddenInList = false
+hiddenInSingle = false
 
 [params.editPost]
 Text = "Suggest Changes"
@@ -112,7 +111,7 @@ iconHeight = 35
 text = ""
 
 [params.profileMode]
-enabled = false
+enabled = true
 imageHeight = 120
 imageWidth = 120
 imageUrl = "/images/avatar.png"
@@ -136,3 +135,40 @@ series = "series"
 
 
 
+
+
+[[params.profileMode.buttons]]
+name = "Archives"
+url = "/archives/"
+
+[[params.profileMode.buttons]]
+name = "Categories"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Recent"
+url = "/recent/"
+
+
+[[languages.en.menu.main]]
+identifier = "link"
+name = "Download"
+url = "https://hugonest.github.io/"
+weight = 1
+
+[[languages.en.menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+weight = 20
+
+[[languages.en.menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 30
+
+[[languages.en.menu.main]]
+name = "Search"
+url = "/search/"
+weight = 50
