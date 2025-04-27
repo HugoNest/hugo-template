@@ -31,7 +31,7 @@ jobs:
           path: ${{ env.HUGO_CACHEDIR }}
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
           restore-keys: |
-            ${{ runner.os }}-hugomod-
+            ${{ runner.os }}-hugomod
 
       - name: Build Hugo site
         run: hugo --minify
