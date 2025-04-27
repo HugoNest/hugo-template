@@ -1,4 +1,4 @@
-baseURL = "https://hugonest.pages.dev/"
+baseURL = ""
 buildDrafts = false
 buildExpired = true
 buildFuture = true
@@ -10,7 +10,7 @@ disableHugoGeneratorInject = true
 summaryLength = 70
 hasCJKLanguage = true
 theme = ["PaperMod"]
-title = "HugoNest"
+title = "MY BLOG"
 mainsections = ["posts"]             
 
 [pagination]
